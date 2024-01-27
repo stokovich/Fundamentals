@@ -7,7 +7,7 @@ my_list = my_string.split(" ")
 
 for element in my_list:
     curr_list = element.split("-")
-    # print(curr_list)
+    # print(initial_list)
     if len(team_A) < 7 or len(team_B) < 7:
         break
 
